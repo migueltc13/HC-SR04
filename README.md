@@ -24,6 +24,7 @@ Feel free to modify to your respective port.
 
 ### TODO:
   - [x] Wiring
+  - [ ] Fix float display issue
   - [ ] Sketch
   - [ ] Settings
   - [ ] Blynk LED
