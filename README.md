@@ -15,8 +15,8 @@ There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
 After compiling the .ino file the code can be send to the ESP and the installation phase is over.
 Special thanks to... (ESP8266 community) (Blynk - V) (...)
 
-There's a shell file "~/src/ttyUSB0.sh" to open the USB0 port to enable the connection (Ubuntu).<br />
-That does the following:
+There's a shell file "ttyUSB0.sh", located in the "src" dir made to open the USB0 port to enable the ESP connection (Ubuntu).<br />
+That runs the following command:
   ```bash
   sudo chmod -R 777 /dev/ttyUSB0 
   ```
@@ -29,6 +29,9 @@ Feel free to modify to your respective port.
   - [ ] Blynk LED
   - [ ] Cleaner app breadboard
 
+### MADE BY:
+Miguel Carvalho
+
 ### MIT LICENSE:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -38,7 +41,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Copyright (c) 2021 migueltc13
-
-### MADE BY:
-Miguel Carvalho
+Copyright (c) 2021 Miguel Carvalho @migueltc13
