@@ -4,7 +4,7 @@
 ***Alarm system made with HC-SR04 Ultrasonic Sensor and micro-controller ESP8266.<br />***
 - Circuit controlled by Wi-Fi with blynk app/web.<br />
 - Trigger distances are customizable in centimeters (cm).<br />
-- Delay times are customizable in mileseconds (ms).<br \>
+- Delay times are customizable in mileseconds (ms).<br />
 
 Still in progress...
 
