@@ -24,8 +24,8 @@ const int tDELAY = 2000;
 char auth[] = "pB9fsXg73Zc96zvXCrJkrNrHFc-BUkxD";
 
 // WiFi
-char ssid[] = "Main";
-char pass[] = "Mtc13072001";
+char ssid[] = "SSID";
+char pass[] = "Password";
 
 // iLED initiation
 String iLEDstate = "off";
