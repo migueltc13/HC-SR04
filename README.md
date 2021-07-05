@@ -36,7 +36,7 @@ That executes the following command:
 To run simply type:
 
 ```bash
-./ttyUSB0.sh
+./src/ttyUSB0.sh
 ```
 
 Feel free to modify to your respective port.
