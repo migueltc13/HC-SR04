@@ -1,0 +1,2 @@
+Add circuit skecth with HC-SR04 sensor, ESP8266, 1x LED, 1x 1k_Resistor and wiring.
+
