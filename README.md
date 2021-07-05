@@ -70,7 +70,7 @@ Then your user should have access to tty without use of sudo.
 
 ### TODO:
   - [x] Wiring
-  - [ ] Fix float display issue
+  - [ ] Fix distance float
   - [ ] Sketch
   - [ ] Settings
   - [ ] Blynk LED
