@@ -20,10 +20,10 @@ const int DELAY = 750;
 // Define delay time in ms when alarm's triggered HERE;
 const int tDELAY = 2000;
 
-// Blynk authentication
+// Blynk authentication HERE;
 char auth[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXX";
 
-// WiFi
+// WiFi HERE;
 char ssid[] = "SSID";
 char pass[] = "Password";
 
