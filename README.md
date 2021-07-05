@@ -24,7 +24,7 @@ After compiling the .ino file the code can be send to the ESP and the installati
 
 ### ISSUES:
 
-***a) Port closed or access denied in USB connection.<br />
+***a) Port closed or access denied in USB connection.***<br />
 
 a.1) There's a shell file "ttyUSB0.sh", located in the "src" dir made to open the USB0 port to enable the ESP connection, fixing issue a) {made for Linux}.<br />
 
