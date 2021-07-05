@@ -10,12 +10,16 @@ Still in progress...
 
 ---
 
+A special thanks to the ESP8266 Community for the board driver for the ESP8266 in Arduino IDE and also to Volodymyr Shymanskyy for the Blynk library used in this project for Wi-Fi connectivity.
+
+---
+
 ### INSTALLATION:
 To install you can use multiple IDE's, such as Arduino IDE (Genuino), to transfer the code to the micro-controller ESP8266.<br />
 There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
 
 After compiling the .ino file the code can be send to the ESP and the installation phase is over.
-Special thanks to... (ESP8266 community) (Blynk - V) (...)
+(...)
 
 ---
 
@@ -43,7 +47,7 @@ Feel free to modify to your respective port.
 
 ###### Or:
 
-1.2) You can run the following commands:
+a.2) You can run the following commands:
 
 ```bash
 groups
