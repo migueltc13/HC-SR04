@@ -29,9 +29,6 @@ Feel free to modify to your respective port.
   - [ ] Blynk LED
   - [ ] Cleaner app breadboard
 
-### MADE BY:
-Miguel Carvalho
-
 ### MIT LICENSE:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -42,3 +39,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Copyright (c) 2021 Miguel Carvalho @migueltc13
+
+### MADE BY:
+Miguel Carvalho
