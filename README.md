@@ -68,7 +68,7 @@ Then your user should have access to tty without use of sudo.
 
 ---
 
-### TODO:p
+### TODO:
   - [x] Wiring
   - [ ] Fix float display issue
   - [ ] Sketch
