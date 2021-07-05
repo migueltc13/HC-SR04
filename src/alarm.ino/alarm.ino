@@ -21,7 +21,7 @@ const int DELAY = 750;
 const int tDELAY = 2000;
 
 // Blynk authentication
-char auth[] = "pB9fsXg73Zc96zvXCrJkrNrHFc-BUkxD";
+char auth[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXX";
 
 // WiFi
 char ssid[] = "SSID";
