@@ -19,6 +19,7 @@ That does the following:
   ```bash
   sudo chmod -R 777 /dev/ttyUSB0 
   ```
+Feel free to modify to your respective port.
 
 ### TODO:
   - [x] Wiring
