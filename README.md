@@ -8,6 +8,8 @@
 
 Still in progress...
 
+---
+
 ### INSTALLATION:
 To install you can use multiple IDE's, such as Arduino IDE (Genuino), to transfer the code to the micro-controller ESP8266.<br />
 There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
@@ -15,12 +17,53 @@ There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
 After compiling the .ino file the code can be send to the ESP and the installation phase is over.
 Special thanks to... (ESP8266 community) (Blynk - V) (...)
 
-There's a shell file "ttyUSB0.sh", located in the "src" dir made to open the USB0 port to enable the ESP connection (Ubuntu).<br />
-That runs the following command:
-  ```bash
+---
+
+### ISSUES:
+
+a) Port closed in usb connection.<br />
+
+a.1) There's a shell file "ttyUSB0.sh", located in the "src" dir made to open the USB0 port to enable the ESP connection, fixing issue a) {made for Linux}.<br />
+
+That executes the following command:
+
+```bash
   sudo chmod -R 777 /dev/ttyUSB0 
   ```
+  
+To run simply type:
+
+```bash
+./ttyUSB0.sh
+```
+
 Feel free to modify to your respective port.
+
+---
+
+###### Or:
+
+1.2) You can run the following commands:
+
+```bash
+groups
+```
+
+To see all available groups type:
+
+```bash
+compgen -g
+```
+
+Most of them are self-explanatory, in this case you want to add yourself to either the tty group, or dialout, which you would do by:
+
+```bash
+sudo usermod -a -G tty yourname
+```
+
+Then your user should have access to tty without use of sudo.
+
+---
 
 ### TODO:
   - [x] Wiring
@@ -29,6 +72,8 @@ Feel free to modify to your respective port.
   - [ ] Settings
   - [ ] Blynk LED
   - [ ] Cleaner app breadboard
+
+---
 
 ### MIT LICENSE:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
