@@ -15,7 +15,7 @@ A special thanks to the ***ESP8266 Community*** for the board driver for the ESP
 ---
 
 ### INSTALLATION:
-To install you can use multiple IDE's, such as Arduino IDE (Genuino), to transfer the code to the micro-controller ESP8266.<br />
+You can use multiple IDE's, such as Arduino IDE (Genuino), to transfer the code to the micro-controller ESP8266.<br />
 There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
 
 After compiling the .ino file the code can be send to the ESP and the installation/programming phases are over.
