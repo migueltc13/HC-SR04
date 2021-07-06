@@ -22,6 +22,11 @@ After compiling the .ino file the code can be send to the ESP and the installati
 
 ---
 
+### CIRCUIT SKETCH:
+![alt text](https://github.com/migueltc13/HC-SR04/blob/main/doc/Sketch.png)
+
+---
+
 ### ISSUES:
 ***a) Port closed or access denied in USB connection.***<br />
 
