@@ -37,7 +37,7 @@ a.1) There's a shell file "ttyUSB0.sh", located in the "src" dir made to open th
 That executes the following command:
 
 ```bash
-  sudo chmod -R 777 /dev/ttyUSB0 
+sudo chmod -R 777 /dev/ttyUSB0 
   ```
   
 To run simply type:
