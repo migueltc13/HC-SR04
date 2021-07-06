@@ -23,11 +23,11 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 ---
 
 ### COMPONENTS:
-1x - ESP8266 <br/>
-1x - HC-SR04 <br/>
-1x - LED* <br/>
-1x - 1k Resistor* <br/>
-4x or 6x(*) - Jumper Wires <br/>
+- 1x - ESP8266 <br/>
+- 1x - HC-SR04 <br/>
+- 1x - LED* <br/>
+- 1x - 1k Resistor* <br/>
+- 4x or 6x(*) - Jumper Wires <br/>
 
 (*) Optional - Can be replaced to other componets.
 
