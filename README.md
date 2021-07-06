@@ -23,7 +23,9 @@ After compiling the .ino file the code can be send to the ESP and the installati
 ---
 
 ### CIRCUIT SKETCH:
-![alt text](https://github.com/migueltc13/HC-SR04/blob/main/doc/Sketch.png)
+<p align="center">
+  <img src="https://github.com/migueltc13/HC-SR04/blob/main/doc/Sketch.png" alt="Circuit Sketch"/>
+</p>
 
 ---
 
