@@ -87,11 +87,10 @@ Then your user should have access to tty without use of sudo.
 
 ### TODO:
   - [x] Wiring
-  - [ ] Fix distance float
   - [x] Sketch
-  - [ ] Settings
+  - [ ] Config
   - [ ] Blynk LED
-  - [ ] Cleaner app breadboard
+  - [ ] Blynk screenshot
 
 ---
 
