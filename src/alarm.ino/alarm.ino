@@ -10,7 +10,12 @@
 #define ECHOPIN    D2
 #define iLED       D0
 
-// Define DISTANCEs HERE; Triggers the iLED if equal or trepasses the limit;
+// ------------------------ <CONFIG> ------------------------
+
+// Define DISTANCEs in CM's HERE; 
+// Triggers the iLED if equal or trepasses the limit;
+// (no limits) Min = NULL; Max = NULL;
+// (default) Min = 4; Max = test;
 int MIN_DISTANCE = 5;
 int MAX_DISTANCE = 20;
 
@@ -21,11 +26,13 @@ const int DELAY = 750;
 const int tDELAY = 2000;
 
 // Blynk authentication HERE;
-char auth[] = "XXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXX";
+char auth[] = "pB9fsXg73Zc96zvXCrJkrNrHFc-BUkxD";
 
 // WiFi HERE;
-char ssid[] = "SSID";
-char pass[] = "Password";
+char ssid[] = "Main";
+char pass[] = "Mtc13072001";
+
+// ------------------------ </CONFIG> -----------------------
 
 // iLED initiation
 String iLEDstate = "off";
@@ -36,8 +43,7 @@ WidgetLCD lcd(V1);
 
 // TODO: Blynk LED Widget
 
-
-// FUNCTIONS
+// ----------------------- <FUNCTIONS> -----------------------
 
   // SETUP
 void setup(){
@@ -69,25 +75,45 @@ void loop(){
 
   digitalWrite(TRIGGERPIN, LOW);
   duration = pulseIn(ECHOPIN, HIGH);
-  distance = (duration/(float)2.0) /(float) 29.1; // float 1 digit
+  if((duration/2)/29.1<1){
+    distance = 1;
+  }
+  else{
+    distance = (duration/(float)2.00) /(float) 29.10;
+  }
   Serial.print(distance);
 
 // Alarm system by distance
-
-  // MAX_DISTANCE and MIN_DISTANCE when NULL
-  if((distance>=MAX_DISTANCE && MAX_DISTANCE==NULL) || (distance<=MIN_DISTANCE && MIN_DISTANCE==NULL)){
-    trigger();
+  
+  // Both NULL
+  if(MIN_DISTANCE==NULL && MAX_DISTANCE==NULL){
+    lcd.print(8,1,("%.1f", distance));
+    digitalWrite(iLED,LOW);
   }
 
-  // When they aren't NULL values
+  // MAX_DISTANCE or MIN_DISTANCE are NULL
   else{
-    if(distance<=MIN_DISTANCE || distance>=MAX_DISTANCE){
-      trigger();
+    if(distance>=MAX_DISTANCE && MIN_DISTANCE==NULL){
+      max_trigger();
     }
-    // When isn't a detection
+    if(distance<=MIN_DISTANCE && MAX_DISTANCE==NULL){
+      min_trigger();
+    }
+    
+    // When they aren't NULL values
     else{
-      lcd.print(8,1,("%.1f", distance));
-      digitalWrite(iLED,LOW);
+      if(distance<=MIN_DISTANCE){
+        min_trigger();
+      }
+      if(distance>=MAX_DISTANCE){
+        max_trigger();
+      }
+      
+      // When isn't a detection
+      else{
+        lcd.print(8,1,("%.1f", distance));
+        digitalWrite(iLED,LOW);
+      }
     }
   }
   // End of Alarm system
@@ -100,10 +126,20 @@ void loop(){
 }
 
 // OTHER FUNCTIONS
-void trigger(){
+void min_trigger(){
   lcd.clear();
-  lcd.print(2, 0, "!! IntrusA !!");
+  lcd.print(2, 0, "MIN TRIGGERED!");
   digitalWrite(iLED,HIGH);
   delay(tDELAY);
   loop();
 }
+
+void max_trigger(){
+  lcd.clear();
+  lcd.print(2, 0, "MAX TRIGGERED!");
+  digitalWrite(iLED,HIGH);
+  delay(tDELAY);
+  loop();
+}
+
+// ----------------------- </FUNCTIONS> ----------------------
