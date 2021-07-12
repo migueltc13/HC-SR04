@@ -26,11 +26,11 @@ const int DELAY = 750;
 const int tDELAY = 2000;
 
 // Blynk authentication HERE;
-char auth[] = "pB9fsXg73Zc96zvXCrJkrNrHFc-BUkxD";
+char auth[] = "XXXXXXXXXXXXX-XXXXXXXXXXX";
 
 // WiFi HERE;
-char ssid[] = "Main";
-char pass[] = "Mtc13072001";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 
 // ------------------------ </CONFIG> -----------------------
 
