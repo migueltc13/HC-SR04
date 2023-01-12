@@ -1,6 +1,7 @@
 # HC-SR04 Sensor Alarm
 
-### DESCRIPTION:
+### DESCRIPTION
+
 ***Distance detetion system made with HC-SR04 Ultrasonic Sensor and micro-controller ESP8266.<br />***
 - Circuit controlled by Wi-Fi with blynk app/website.<br />
 - Trigger distances are customizable in centimeters (cm).<br />
@@ -14,7 +15,8 @@ A special thanks to the ***ESP8266 Community*** for the board driver for the ESP
 
 ---
 
-### INSTALLATION:
+### INSTALLATION
+
 You can use multiple IDE's, such as Arduino IDE (Genuino), to transfer the code to the micro-controller ESP8266.<br />
 There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
 
@@ -22,7 +24,8 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 
 ---
 
-### COMPONENTS:
+### COMPONENTS
+
 - 1x - ESP8266 <br/>
 - 1x - HC-SR04 <br/>
 - 1x - LED* <br/>
@@ -33,14 +36,16 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 
 ---
 
-### CIRCUIT SKETCH:
+### CIRCUIT SKETCH
+
 <p align="center">
   <img src="https://github.com/migueltc13/HC-SR04/blob/main/doc/Sketch.png" alt="Circuit Sketch"/>
 </p>
 
 ---
 
-### ISSUES:
+### ISSUES AND SOLUTIONS
+
 ***a) Port closed or access denied in USB connection.***<br />
 
 a.1) There's a shell file "ttyUSB0.sh", located in the "src" dir made to open the USB0 port to enable the ESP connection, fixing issue ***a)***.<br />
@@ -85,7 +90,8 @@ Then your user should have access to tty without use of sudo.
 
 ---
 
-### TODO:
+### TODO
+
   - [x] Wiring
   - [x] Sketch
   - [ ] Config
@@ -94,5 +100,6 @@ Then your user should have access to tty without use of sudo.
 
 ---
 
-### AUTHOR:
+### AUTHOR
+
 Miguel Carvalho [@migueltc13](https://github.com/migueltc13)
