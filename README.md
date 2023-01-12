@@ -1,7 +1,7 @@
 # HC-SR04 Sensor Alarm
 
 ### DESCRIPTION:
-***Alarm system made with HC-SR04 Ultrasonic Sensor and micro-controller ESP8266.<br />***
+***Distance detetion system made with HC-SR04 Ultrasonic Sensor and micro-controller ESP8266.<br />***
 - Circuit controlled by Wi-Fi with blynk app/website.<br />
 - Trigger distances are customizable in centimeters (cm).<br />
 - Delay times are customizable in mileseconds (ms).<br />
