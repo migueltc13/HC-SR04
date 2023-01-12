@@ -92,11 +92,10 @@ Then your user should have access to tty without use of sudo.
 
 ### TODO
 
-  - [x] Wiring
-  - [x] Sketch
-  - [ ] Config
-  - [ ] Blynk LED
-  - [ ] Blynk screenshot
+- [x] Sketch
+- [ ] Config file
+- [ ] Blynk LED
+- [ ] Blynk screenshot
 
 ---
 
