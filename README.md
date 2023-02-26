@@ -37,7 +37,7 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 ### Circuit Sketch
 
 <p align="center">
-  <img src="https://github.com/migueltc13/HC-SR04/blob/main/doc/Sketch.png" alt="Circuit Sketch"/>
+  <img src=".github/img/sketch.png" alt="Circuit Sketch"/>
 </p>
 
 ---
