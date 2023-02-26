@@ -1,7 +1,5 @@
 # HC-SR04 Sensor Alarm
 
-### DESCRIPTION
-
 ***Distance detetion system made with HC-SR04 Ultrasonic Sensor and micro-controller ESP8266.<br />***
 - Circuit controlled by Wi-Fi with blynk app/website.<br />
 - Trigger distances are customizable in centimeters (cm).<br />
@@ -15,7 +13,7 @@ A special thanks to the ***ESP8266 Community*** for the board driver for the ESP
 
 ---
 
-### INSTALLATION
+## Installation
 
 You can use multiple IDE's, such as Arduino IDE (Genuino), to transfer the code to the micro-controller ESP8266.<br />
 There's also plugins to use in IDE's like VSCode, Atom, etc.<br />
@@ -24,7 +22,7 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 
 ---
 
-### COMPONENTS
+## Components
 
 - 1x - ESP8266 <br/>
 - 1x - HC-SR04 <br/>
@@ -36,7 +34,7 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 
 ---
 
-### CIRCUIT SKETCH
+### Circuit Sketch
 
 <p align="center">
   <img src="https://github.com/migueltc13/HC-SR04/blob/main/doc/Sketch.png" alt="Circuit Sketch"/>
@@ -44,7 +42,7 @@ After compiling the .ino main file the code can be send to the ESP and the insta
 
 ---
 
-### ISSUES AND SOLUTIONS
+### Issues & Solutions
 
 ***a) Port closed or access denied in USB connection.***<br />
 
