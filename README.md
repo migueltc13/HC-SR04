@@ -96,9 +96,3 @@ Then your user should have access to tty without use of sudo.
 - [ ] Config file
 - [ ] Blynk LED
 - [ ] Blynk screenshot
-
----
-
-### AUTHOR
-
-Miguel Carvalho [@migueltc13](https://github.com/migueltc13)
