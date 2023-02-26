@@ -60,7 +60,7 @@ To run simply type:
 ./src/ttyUSB0.sh
 ```
 
-Feel free to modify it to your respective port.
+Feel free to modify it to your respective USB port.
 
 ---
 
